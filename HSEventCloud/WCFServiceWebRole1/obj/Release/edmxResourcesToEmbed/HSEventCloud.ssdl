@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HSChat_dbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="HSChat_dbModelStoreContainer">
+    <EntitySet Name="user_profile" EntityType="HSChat_dbModel.Store.user_profile" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="user_profile">
+    <Key>
+      <PropertyRef Name="eventID" />
+    </Key>
+    <Property Name="eventID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="userID" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="day" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="month" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="year" Type="varchar" Nullable="false" MaxLength="4" />
+    <Property Name="eventName" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+</Schema>

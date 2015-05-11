@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HSChat_dbModelStoreContainer" CdmEntityContainer="HSChat_dbEntities">
+    <EntitySetMapping Name="user_profile">
+      <EntityTypeMapping TypeName="HSChat_dbModel.user_profile">
+        <MappingFragment StoreEntitySet="user_profile">
+          <ScalarProperty Name="eventID" ColumnName="eventID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="day" ColumnName="day" />
+          <ScalarProperty Name="month" ColumnName="month" />
+          <ScalarProperty Name="year" ColumnName="year" />
+          <ScalarProperty Name="eventName" ColumnName="eventName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

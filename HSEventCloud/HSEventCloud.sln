@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "HSEventCloud", "HSEventCloud\HSEventCloud.ccproj", "{C2871F55-8895-43BC-A02D-E59E0E1CCC65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceWebRole1", "WCFServiceWebRole1\WCFServiceWebRole1.csproj", "{BDC759D5-CFEE-4D6D-8F91-F0A65EC45AC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2871F55-8895-43BC-A02D-E59E0E1CCC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2871F55-8895-43BC-A02D-E59E0E1CCC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2871F55-8895-43BC-A02D-E59E0E1CCC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2871F55-8895-43BC-A02D-E59E0E1CCC65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC759D5-CFEE-4D6D-8F91-F0A65EC45AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC759D5-CFEE-4D6D-8F91-F0A65EC45AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC759D5-CFEE-4D6D-8F91-F0A65EC45AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC759D5-CFEE-4D6D-8F91-F0A65EC45AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
